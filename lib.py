@@ -1,10 +1,5 @@
-from random import random
 
-N = 100
-arr = [0] * N
-for i in range(N):
-    arr[i] = int(random() * 50)
-print(arr)
+arr = [9, 7, 5, 8, 10, 4, 6, 14, 12, 1 ]
 
 setarr = set(arr)
 if len(arr) == len(setarr):
